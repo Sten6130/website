@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-color: #2026B1;
+    color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+nav{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+    display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.front-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.bit{
+    background-color: rgb(110, 124, 250);
+    border-style: solid grey;
+    padding: 18px 18px 18px 18px;
+    border-radius: 5px;
+}
+
+.urls{
+    color: rgb(255, 131, 131);
+}
+
+.pic-logo{
+    width: 25px;
+}
+
+.flex-bit{
+    display: flex;
+    flex-direction: column;
+}
+
+.front-page{
+   margin-top: 10%;
+}
